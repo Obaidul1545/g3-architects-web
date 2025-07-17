@@ -132,3 +132,61 @@ header {
 /* ================== */
 
 /* Experience css */
+#experience-part {
+  margin: 100px 0;
+}
+#experience-part .experience-content {
+  gap: 146px;
+}
+#experience-part .experience-text h2 {
+  color: rgb(19, 19, 19);
+  font-family: Work Sans;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-left: 20px;
+  border-left: 5px solid #ff900e;
+  margin: 40px 0 24px;
+}
+#experience-part .experience-text h3 {
+  color: rgb(19, 19, 19);
+  font-family: Work Sans;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+#experience-part .experience-text p {
+  color: rgb(114, 114, 114);
+  font-family: Work Sans;
+  font-size: 1rem;
+  font-weight: 400;
+}
+#experience-part .experience-text .experience-card {
+  padding: 30px 33px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px #ddd;
+}
+#experience-part .experience-content .image img {
+  width: 100%;
+}
+#experience-part .experience-content .experience-badge {
+  padding: 45px 42px;
+  border-radius: 8px;
+  background: rgb(255, 144, 14);
+  width: 342px;
+  text-align: center;
+  margin-left: -92px;
+  margin-top: -120px;
+}
+#experience-part .experience-content .experience-badge .year {
+  color: #ffffff;
+  font-family: Work Sans;
+  font-weight: 700;
+  font-size: 4rem;
+}
+#experience-part .experience-content .experience-badge .experience {
+  color: #ffffff;
+  font-family: Work Sans;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+/* ============== */
