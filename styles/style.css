@@ -242,3 +242,49 @@ header {
 /* ============== */
 
 /* Sponspors part css */
+#sponspors-part {
+  margin: 100px 0;
+}
+#sponspors-part .sponspors-content {
+  text-align: center;
+}
+#sponspors-part .sponspors-content h2 {
+  color: rgb(19, 19, 19);
+  font-family: Work Sans;
+  font-size: 3rem;
+  font-weight: 700;
+}
+#sponspors-part .sponspors-content p {
+  color: rgb(114, 114, 114);
+  font-family: Work Sans;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 24px 0 50px;
+}
+#sponspors-part .sponspors-content .sponspors-images {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 154px;
+  text-align: center;
+}
+#sponspors-part .sponspors-content .sponspors-images img {
+  width: 100%;
+  filter: grayscale(100%);
+}
+/* ========= */
+
+footer {
+  margin: 100px 0;
+}
+footer .footer-content {
+  border-radius: 8px;
+  background: rgb(255, 244, 231);
+}
+footer .footer-content p {
+  color: rgb(66, 66, 66);
+  font-family: Work Sans;
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 40px;
+}
