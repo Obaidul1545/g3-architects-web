@@ -138,6 +138,12 @@ header {
 #experience-part .experience-content {
   gap: 146px;
 }
+#experience-part .experience-text {
+  flex: 1;
+}
+#experience-part .experience-content .images {
+  flex: 1;
+}
 #experience-part .experience-text h2 {
   color: rgb(19, 19, 19);
   font-family: Work Sans;
@@ -165,7 +171,8 @@ header {
   margin-top: 20px;
   box-shadow: 0 0 10px #ddd;
 }
-#experience-part .experience-content .image img {
+
+#experience-part .experience-content .images img {
   width: 100%;
 }
 #experience-part .experience-content .experience-badge {
