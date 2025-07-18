@@ -288,3 +288,8 @@ footer .footer-content p {
   text-align: center;
   padding: 40px;
 }
+/* ========= */
+
+.hide {
+  display: none;
+}
